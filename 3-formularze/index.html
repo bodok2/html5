@@ -1,15 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Formularz</title>
 </head>
+
 <body>
-   <form action="">
    
-       <input type="submit" value="Wyślij">
-       
-       </form>
-    
+<form action="https://formspree.io/bodok2@gmail.com" method="POST">
+
+    <label for="imie" name="imie" id="imie">Imię</label>
+    <input type="text" name="name" value="Imię" placeholder="Podaj imię">
+<br>
+    <label for="nazwisko">Nazwisko</label>
+    <input type="text" name="nazwisko" value="nazwisko" placeholder="Podaj nazwisko">
+<br>
+    <label for="numer">Telefon</label>
+    <input type="text" name="telefon" value="telefon" placeholder="telefon">
+<br>
+    <label for="email" name="e-mail" id="e-mail">e-mail</label>
+    <input type="text" name="e-mail" value="email" placeholder="Podaj e-mail">
+<br>
+
+    <input type="radio" name="gender">Mężczyzna
+    <input type="radio" name="gender">Kobieta
+<br>
+    <input type="submit" value="Wyślij">
+
+</form>
+        
+
+
+
+
+   
 </body>
+
 </html>
